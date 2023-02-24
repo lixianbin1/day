@@ -1,0 +1,14 @@
+.DS_Store
+.vite-ssg-dist
+.vite-ssg-temp
+*.local
+dist
+dist-ssr
+node_modules
+.idea/
+*.log
+cypress/downloads
+
+# 去除自动生成跟踪，防止代码冲突
+components.d.ts
+auto-imports.d.ts
